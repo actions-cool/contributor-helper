@@ -52,7 +52,7 @@ jobs:
 
 ### Inputs
 
-| 名称 | 描述 | 是否必填 |
+| 名称 | 描述 | 必填 |
 | -- | -- | -- |
 | token | GitHub token。如果不传，即为默认 token。 | ✖ |
 | repo | 默认查询当前仓库。可设置查询其他库，例如：`actions-cool/contributor-helper`。 | ✖ |
