@@ -17,6 +17,8 @@
       <a href="https://github.com/visiky" target="_blank">visiky</a>
     </td>
   </tr>
+</table>
+<table>
   <tr>
     <td align="right">
       <strong>Company: </strong>
