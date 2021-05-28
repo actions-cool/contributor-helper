@@ -17,8 +17,6 @@
       <a href="https://github.com/visiky" target="_blank">visiky</a>
     </td>
   </tr>
-</table>
-<table>
   <tr>
     <td align="right">
       <strong>Company: </strong>
@@ -60,7 +58,10 @@
 
 @alipay 
     </td>
-  </tr><tr>
+  </tr>
+</table>
+<table>
+  <tr>
     <td rowspan="6">
       <img src="https://avatars.githubusercontent.com/u/7856674?v=4" width="200" />
     </td>
