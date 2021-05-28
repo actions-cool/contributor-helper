@@ -13,7 +13,7 @@ jobs:
       - uses: actions-cool/contributor-helper@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          update-files: 'DEMO.base.md, Demo.simple.md'
+          update-files: 'DEMO.base.md, DEMO.simple.md'
           update-places: '## Contributors List/## hi, ## Contributors List/## hello'
           repo: 'antvis/G2'
           style: 'simple'
