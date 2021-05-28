@@ -1,8 +1,8 @@
 name: Contributor Helper
 
 on:
-  issues:
-    types: [labeled]
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   contributor:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: actions-cool/contributor-helper@main
+      - uses: actions-cool/contributor-helper@v1.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-files: 'DEMO.base.md, DEMO.simple.md'
