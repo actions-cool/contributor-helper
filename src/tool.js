@@ -2,6 +2,9 @@ const core = require('@actions/core');
 const { Octokit } = require('@octokit/rest');
 const token = core.getInput('token');
 const octokit = new Octokit({ auth: `token ${token}` });
+const sampleSize = require('lodash/sampleSize');
+
+const { DEFAULT_USER_EMOJI, USER_EMOJIS } = require('./const');
 
 // **************************************************************************
 
@@ -14,7 +17,7 @@ async function queryContributors(owner, repo, page = 1) {
   });
 
   if (contributors.length >= 100) {
-    contributors = contributors.concat(await queryContributions(page +1))
+    contributors = contributors.concat(await queryContributions(page + 1));
   }
 
   return contributors;
@@ -24,6 +27,7 @@ async function queryUser(username) {
   const { data: user } = await octokit.users.getByUsername({
     username,
   });
+  core.info(`[Actions: Query] Query ${username} success.`);
   return user;
 }
 
@@ -35,9 +39,7 @@ function formatSimple(arr, w) {
 <a href="${o.html_url}" title="${o.login}">
   <img src="${o.avatar_url}" width="${w}" />
 </a>`;
-  })
-  body += `
-`;
+  });
   return body;
 }
 
@@ -50,18 +52,18 @@ function formatBase(arr, w) {
   for (let j = 1; j <= row; j += 1) {
     let data = '';
     data = `<tr>
-    <td width="150" align="center">${getUser(arr[(j-1)*5], w)}
+    <td width="150" align="center">${getUser(arr[(j - 1) * 5], w)}
     </td>
-    <td width="150" align="center">${getUser(arr[(j-1)*5+1], w)}
+    <td width="150" align="center">${getUser(arr[(j - 1) * 5 + 1], w)}
     </td>
-    <td width="150" align="center">${getUser(arr[(j-1)*5+2], w)}
+    <td width="150" align="center">${getUser(arr[(j - 1) * 5 + 2], w)}
     </td>
-    <td width="150" align="center">${getUser(arr[(j-1)*5+3], w)}
+    <td width="150" align="center">${getUser(arr[(j - 1) * 5 + 3], w)}
     </td>
-    <td width="150" align="center">${getUser(arr[(j-1)*5+4], w)}
+    <td width="150" align="center">${getUser(arr[(j - 1) * 5 + 4], w)}
     </td>
   </tr>`;
-  body += data;
+    body += data;
   }
   return body;
 }
@@ -70,23 +72,64 @@ async function formatDeatil(arr, w) {
   let body = '';
   if (arr.length === 0) return body;
   if (!core.getInput('avatar-width')) w = 200;
-  for (var i = o; i < arr.length; i ++) {
+  const userEmoji = core.getInput('user-emoji') || DEFAULT_USER_EMOJI;
+  let emojis = [];
+  if (userEmoji == 'random') {
+    emojis = sampleSize(USER_EMOJIS, arr.length);
+  }
+  for (var i = 0; i < arr.length; i += 1) {
     let o = arr[i];
-    const u = await queryUser(o.login);
+    let u = await queryUser(o.login);
+    let emoji = userEmoji == 'random' ? emojis[i] : userEmoji;
     body += `<tr>
-    <td>
+    <td rowspan="6">
       <img src="${o.avatar_url}" width="${w}" />
     </td>
+    <td width="130">
+      <strong>${emoji} User: </strong>
+    </td>
     <td>
-      <strong>User: </strong> <a href="${u.html_url}">${u.login}</a>
-      <br />
-      <strong>Company: </strong> ${getCompany(u.company)}
-      <br />
-      <strong>Location: </strong> ${u.location}
-      <br />
-      <strong>Followers: </strong> ${u.followers}
-      <br />
-      <strong>Created: </strong> ${u.created_at.substring(0, 9)}
+      <a href="${u.html_url}" target="_blank">${u.login}</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>🏢 Company: </strong>
+    </td>
+    <td>
+      ${getCompany(u.company)}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>🏠 Location: </strong>
+    </td>
+    <td>
+      ${u.location ? u.location : '-'}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>💕 Followers: </strong>
+    </td>
+    <td>
+      ${u.followers ? u.followers : '-'}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>🏆 Created: </strong>
+    </td>
+    <td>
+      ${u.created_at.substring(0, 10)}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>🎉 Bio: </strong>
+    </td>
+    <td>
+      ${u.bio ? u.bio : '-'}
     </td>
   </tr>`;
   }
@@ -96,7 +139,7 @@ async function formatDeatil(arr, w) {
 function getCompany(c) {
   if (c) {
     c = c.replace('@', '');
-    return `[@${c}](https://github.com/${c})`;
+    return `<a href="https://github.com/${c}">@${c}</a>`;
   }
   return `-`;
 }
@@ -108,7 +151,7 @@ function getUser(user, w) {
         <img src="${user.avatar_url}" width="${w}" />
         <br />
         ${user.login}
-      </a>`
+      </a>`;
   }
   return '';
 }

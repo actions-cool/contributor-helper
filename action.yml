@@ -1,22 +1,36 @@
 # https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
-name: 'Action JS Template'
-description: 'A simple javascript template for rapid development of GitHub actions.'
+name: 'Contributor Helper'
+description: 'Help you view contributor.'
 author: 'xrkffgg'
 
+# https://actions-cool.github.io/github-action-branding/
 branding:
-  # https://actions-cool.github.io/github-action-branding/
-  icon: 'file'
-  color: 'blue'
+  icon: 'users'
+  color: 'red'
 
 inputs:
-  GITHUB_TOKEN:
+  token:
     description: Secret GitHub API token to use for making API requests.
     default: ${{ github.token }}
     required: true
+  repo:
+    description: The repository name.
+  update-files:
+    description: The update files path.
+  update-places:
+    description: The update files places. Contains start position and end position.
+  avatar-width:
+    description: The avatar width show.
+  style:
+    description: The contributor list style. Option simple base detail.
+  show-total:
+    description: Whether show tatal number.
+  user-emoji:
+    description: Customize the emoji before user.
 
-#outputs:
-#  result:
-#    description: action result
+outputs:
+  contributors:
+    description: The contributors list.
 
 runs:
   using: 'node12'

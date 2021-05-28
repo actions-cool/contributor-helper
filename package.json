@@ -20,7 +20,8 @@
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@octokit/rest": "^18.0.14",
-    "actions-util": "^1.0.0"
+    "actions-util": "^1.0.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@umijs/fabric": "^2.5.6",

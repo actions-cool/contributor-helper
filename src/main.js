@@ -1,22 +1,13 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-const { Octokit } = require('@octokit/rest');
+const { readFileSync, writeFileSync } = require('fs');
 const { dealStringToArr } = require('actions-util');
-const {
-  queryContributors,
-  formatSimple,
-  formatBase,
-  formatDeatil,
-} = require('./tool');
 
-// **************************************************************************
-const token = core.getInput('token');
-const octokit = new Octokit({ auth: `token ${token}` });
+const { queryContributors, formatSimple, formatBase, formatDeatil } = require('./tool');
+
+const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH } = require('./const');
+
 const context = github.context;
-
-const STYLES = ['simple', 'base', 'detail'];
-const DEFAULT_STYLE = 'base';
-const DEFAULT_WIDTH = 50;
 
 // **************************************************************************
 async function run() {
@@ -30,31 +21,43 @@ async function run() {
       repo = context.repo.repo;
     }
 
-    const updateFiles = core.getInput('update-files') || '';
-    const updatePlaces= core.getInput('update-places') || '';
-    const issueNumber = core.getInput('issue-number');
+    const updateFiles = core.getInput('update-files') || 'README.md, README.en-US.md';
+    const updatePlaces =
+      core.getInput('update-places') || '## Contributors List/## 3, ## Contributors List/## 4';
 
-    if (updateFiles.length !== updatePlaces.length ) {
+    const files = dealStringToArr(updateFiles);
+    const places = dealStringToArr(updatePlaces);
+
+    if (files.length !== places.length) {
       core.setFailed(`[Error] "update-files" must keep the same quantity with "update-places"!`);
       return false;
     }
 
     const contributors = await queryContributors(owner, repo);
-    core.info(`[Actions: Query] The ${owner/repo} has ${contributors.length} contributors.`);
+    core.info(`[Actions: Query] The ${owner}/${repo} has ${contributors.length} contributors.`);
+    core.setOutput('contributors', contributors);
+    if (files.length == 0) {
+      return false;
+    }
 
     let avatarWidth = core.getInput('avatar-width') || DEFAULT_WIDTH;
     if (isNaN(Number(avatarWidth))) avatarWidth = Number(avatarWidth);
 
-    let style = core.getInput('style');
+    let style = core.getInput('style') || 'detail';
+    const showTotal = core.getInput('show-total') || 'true';
     if (!STYLES.includes(style)) style = DEFAULT_STYLE;
 
     let body;
     if (style == 'simple') {
-      body = formatSimple(contributors, avatarWidth);
+      body = `
+${formatSimple(contributors, avatarWidth)}
+
+`;
     }
 
     if (style == 'base') {
       body = `
+
 <table>
   ${formatBase(contributors, avatarWidth)}
 </table>
@@ -64,13 +67,31 @@ async function run() {
 
     if (style == 'detail') {
       body = `
+
 <table>
-  ${formatDeatil(contributors, avatarWidth)}
+  ${await formatDeatil(contributors, avatarWidth)}
 </table>
 
 `;
     }
 
+    if (showTotal == 'true') {
+      body = `
+
+> 📊 Total: <kbd>**${contributors.length}**</kbd>${body}`;
+    }
+
+    for (var i = 0; i < files.length; i++) {
+      let file = readFileSync(files[i], 'utf-8');
+      let [piA, piB] = places[i].split('/');
+      let inA = file.indexOf(piA);
+      let inB = file.indexOf(piB);
+
+      let bodyA = file.substring(0, inA + piA.length);
+      let bodyB = file.substring(inB, file.length);
+      writeFileSync(files[i], bodyA + body + bodyB);
+      core.info(`[Actions: writeFileSync] The ${files[i]} updated!`);
+    }
   } catch (error) {
     core.setFailed(error.message);
   }
