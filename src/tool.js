@@ -1,10 +1,17 @@
 const core = require('@actions/core');
 const { Octokit } = require('@octokit/rest');
 const token = core.getInput('token');
+const randomSmiley = require('random-smiley');
 const octokit = new Octokit({ auth: `token ${token}` });
-const sampleSize = require('lodash/sampleSize');
 
-const { DEFAULT_USER_EMOJI, USER_EMOJIS } = require('./const');
+const {
+  DEFAULT_USER_EMOJI,
+  DEFAULT_COMPANY_EMOJI,
+  DEFAULT_LOCATION_EMOJI,
+  DEFAULT_FOLLOWERS_EMOJI,
+  DEFAULT_CREATED_EMOJI,
+  DEFAULT_BIO_EMOJI,
+} = require('./const');
 
 // **************************************************************************
 
@@ -75,8 +82,9 @@ async function formatDeatil(arr, w) {
   const userEmoji = core.getInput('user-emoji') || DEFAULT_USER_EMOJI;
   let emojis = [];
   if (userEmoji == 'random') {
-    emojis = sampleSize(USER_EMOJIS, arr.length);
+    emojis = randomSmiley(arr.length);
   }
+  const showEmoji = userEmoji != 'none';
   for (var i = 0; i < arr.length; i += 1) {
     let o = arr[i];
     let u = await queryUser(o.login);
@@ -85,48 +93,48 @@ async function formatDeatil(arr, w) {
     <td rowspan="6">
       <img src="${o.avatar_url}" width="${w}" />
     </td>
-    <td width="130">
-      <strong>${emoji} User: </strong>
+    <td width="130" align="left">
+      <strong>${showEmoji ? emoji : ''} User: </strong>
     </td>
     <td>
       <a href="${u.html_url}" target="_blank">${u.login}</a>
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏢 Company: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_COMPANY_EMOJI : ''} Company: </strong>
     </td>
     <td>
       ${getCompany(u.company)}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏠 Location: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_LOCATION_EMOJI : ''} Location: </strong>
     </td>
     <td>
       ${u.location ? u.location : '-'}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>💕 Followers: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_FOLLOWERS_EMOJI : ''} Followers: </strong>
     </td>
     <td>
       ${u.followers ? u.followers : '-'}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏆 Created: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_CREATED_EMOJI : ''} Created: </strong>
     </td>
     <td>
       ${u.created_at.substring(0, 10)}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🎉 Bio: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_BIO_EMOJI : ''} Bio: </strong>
     </td>
     <td>
       ${u.bio ? u.bio : '-'}

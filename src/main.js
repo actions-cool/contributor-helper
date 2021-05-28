@@ -5,7 +5,7 @@ const { dealStringToArr } = require('actions-util');
 
 const { queryContributors, formatSimple, formatBase, formatDeatil } = require('./tool');
 
-const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH } = require('./const');
+const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH, DEFAULT_TOTAL_EMOJI } = require('./const');
 
 const context = github.context;
 
@@ -21,9 +21,8 @@ async function run() {
       repo = context.repo.repo;
     }
 
-    const updateFiles = core.getInput('update-files') || 'README.md, README.en-US.md';
-    const updatePlaces =
-      core.getInput('update-places') || '## Contributors List/## 3, ## Contributors List/## 4';
+    const updateFiles = core.getInput('update-files');
+    const updatePlaces = core.getInput('update-places');
 
     const files = dealStringToArr(updateFiles);
     const places = dealStringToArr(updatePlaces);
@@ -33,7 +32,14 @@ async function run() {
       return false;
     }
 
-    const contributors = await queryContributors(owner, repo);
+    let contributors = await queryContributors(owner, repo);
+    const blockUsers = core.getInput('block-users') || 'semantic-release-bot, x6-bot[bot]';
+
+    if (blockUsers) {
+      contributors = contributors.filter(c => {
+        return !dealStringToArr(blockUsers).includes(c.login);
+      });
+    }
     core.info(`[Actions: Query] The ${owner}/${repo} has ${contributors.length} contributors.`);
     core.setOutput('contributors', contributors);
     if (files.length == 0) {
@@ -78,7 +84,7 @@ ${formatSimple(contributors, avatarWidth)}
     if (showTotal == 'true') {
       body = `
 
-> 📊 Total: <kbd>**${contributors.length}**</kbd>${body}`;
+> ${DEFAULT_TOTAL_EMOJI} Total: <kbd>**${contributors.length}**</kbd>${body}`;
     }
 
     for (var i = 0; i < files.length; i++) {

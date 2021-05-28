@@ -2,48 +2,23 @@ const STYLES = ['simple', 'base', 'detail'];
 const DEFAULT_STYLE = 'base';
 const DEFAULT_WIDTH = 50;
 
+const DEFAULT_TOTAL_EMOJI = '📊';
 const DEFAULT_USER_EMOJI = '😊';
-const USER_EMOJIS = [
-  '😀',
-  '😃',
-  '😄',
-  '😁',
-  '😆',
-  '😅',
-  '😂',
-  '🤣',
-  '🥲',
-  '☺️',
-  '😊',
-  '😇',
-  '🙂',
-  '🙃',
-  '😉',
-  '😌',
-  '😍',
-  '🥰',
-  '😘',
-  '😗',
-  '😙',
-  '😚',
-  '😋',
-  '😛',
-  '😝',
-  '😜',
-  '🤪',
-  '🤨',
-  '🧐',
-  '🤓',
-  '😎',
-  '🥸',
-  '🤩',
-  '🥳',
-];
+const DEFAULT_COMPANY_EMOJI = '🏢';
+const DEFAULT_LOCATION_EMOJI = '🏠';
+const DEFAULT_FOLLOWERS_EMOJI = '💕';
+const DEFAULT_CREATED_EMOJI = '🏆';
+const DEFAULT_BIO_EMOJI = '🎉';
 
 module.exports = {
   STYLES,
   DEFAULT_STYLE,
   DEFAULT_WIDTH,
+  DEFAULT_TOTAL_EMOJI,
   DEFAULT_USER_EMOJI,
-  USER_EMOJIS,
+  DEFAULT_COMPANY_EMOJI,
+  DEFAULT_LOCATION_EMOJI,
+  DEFAULT_FOLLOWERS_EMOJI,
+  DEFAULT_CREATED_EMOJI,
+  DEFAULT_BIO_EMOJI,
 };

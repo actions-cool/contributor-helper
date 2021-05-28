@@ -19,7 +19,7 @@
 ## 🚀 如果使用？
 
 > 你可以参照当前项目的例子来使用：https://github.com/actions-cool/contributor-helper/blob/main/.github/workflows/contributor-help.yml
-> 
+>
 > 触发条件根据需要设置
 
 ```yml
@@ -35,11 +35,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: actions-cool/contributor-helper@v1.0.0
+      - uses: actions-cool/contributor-helper@v1.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-files: 'DEMO.base.md, Demo.simple.md'
           update-places: '## Contributors List/## hi, ## Contributors List/## hello'
+          block-users: 'bot1, bot2'
           style: 'simple'
           avatar-width: '66'
 
@@ -63,6 +64,7 @@ jobs:
 | update-files | 更新文件列表，可填写多个，参照例子。 | ✖ |
 | update-places | 更新文件地方，需和文件个数保持一直，需传入起始位置和终止位置，参照例子。 | ✖ |
 | avatar-width | 头像大小，默认 50，详细样式固定 200。 | ✖ |
+| block-users | 屏蔽用户，由于有些可能包含 bot，这里可以屏蔽掉。 | ✖ |
 | style | 列表样式，默认为 `base`，可选 `simple` `detail`。 | ✖ |
 | show-total | 是否显示总数，默认为 true。 | ✖ |
 | user-emoji | 自定义详细样式 User 前的 emoji，当为 `random` 时，会随机选取。 | ✖ |

@@ -8590,6 +8590,30 @@ function onceStrict (fn) {
 
 /***/ }),
 
+/***/ 1057:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+
+var sampleSize = __nccwpck_require__(2199);
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var sampleSize__default = /*#__PURE__*/_interopDefaultLegacy(sampleSize);
+
+var SMILEY_EMOJIS = ['😀', '😃', '😄', '😁', '😆', '😅', '😂', '🤣', '🥲', '☺️', '😊', '😇', '🙂', '🙃', '😉', '😌', '😍', '🥰', '😘', '😗', '😙', '😚', '😋', '😛', '😝', '😜', '🤪', '🤨', '🧐', '🤓', '😎', '🥸', '🤩', '🥳', '😏', '😒', '😞', '😔', '😟', '😕', '🙁', '☹️', '😣', '😖', '😫', '😩', '🥺', '😢', '😭', '😤', '😠', '😡', '🤬', '🤯', '😳', '🥵', '🥶', '😱', '😨', '😰', '😥', '😓', '🤗', '🤔', '🤭', '🤫', '🤥', '😶', '😐', '😑', '😬', '🙄', '😯', '😦', '😧', '😮', '😲', '🥱', '😴', '🤤', '😪', '😵', '🤐', '🥴', '🤢', '🤮', '🤧', '😷', '🤒', '🤕', '🤑', '🤠', '👽', '👾', '🤖', '🎃'];
+
+var randomSmiley = function randomSmiley() {
+  var c = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+  return sampleSize__default['default'](SMILEY_EMOJIS, c);
+};
+
+module.exports = randomSmiley;
+
+
+/***/ }),
+
 /***/ 4294:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
@@ -8943,50 +8967,25 @@ const STYLES = ['simple', 'base', 'detail'];
 const DEFAULT_STYLE = 'base';
 const DEFAULT_WIDTH = 50;
 
+const DEFAULT_TOTAL_EMOJI = '📊';
 const DEFAULT_USER_EMOJI = '😊';
-const USER_EMOJIS = [
-  '😀',
-  '😃',
-  '😄',
-  '😁',
-  '😆',
-  '😅',
-  '😂',
-  '🤣',
-  '🥲',
-  '☺️',
-  '😊',
-  '😇',
-  '🙂',
-  '🙃',
-  '😉',
-  '😌',
-  '😍',
-  '🥰',
-  '😘',
-  '😗',
-  '😙',
-  '😚',
-  '😋',
-  '😛',
-  '😝',
-  '😜',
-  '🤪',
-  '🤨',
-  '🧐',
-  '🤓',
-  '😎',
-  '🥸',
-  '🤩',
-  '🥳',
-];
+const DEFAULT_COMPANY_EMOJI = '🏢';
+const DEFAULT_LOCATION_EMOJI = '🏠';
+const DEFAULT_FOLLOWERS_EMOJI = '💕';
+const DEFAULT_CREATED_EMOJI = '🏆';
+const DEFAULT_BIO_EMOJI = '🎉';
 
 module.exports = {
   STYLES,
   DEFAULT_STYLE,
   DEFAULT_WIDTH,
+  DEFAULT_TOTAL_EMOJI,
   DEFAULT_USER_EMOJI,
-  USER_EMOJIS,
+  DEFAULT_COMPANY_EMOJI,
+  DEFAULT_LOCATION_EMOJI,
+  DEFAULT_FOLLOWERS_EMOJI,
+  DEFAULT_CREATED_EMOJI,
+  DEFAULT_BIO_EMOJI,
 };
 
 
@@ -8998,10 +8997,17 @@ module.exports = {
 const core = __nccwpck_require__(2186);
 const { Octokit } = __nccwpck_require__(5375);
 const token = core.getInput('token');
+const randomSmiley = __nccwpck_require__(1057);
 const octokit = new Octokit({ auth: `token ${token}` });
-const sampleSize = __nccwpck_require__(2199);
 
-const { DEFAULT_USER_EMOJI, USER_EMOJIS } = __nccwpck_require__(6818);
+const {
+  DEFAULT_USER_EMOJI,
+  DEFAULT_COMPANY_EMOJI,
+  DEFAULT_LOCATION_EMOJI,
+  DEFAULT_FOLLOWERS_EMOJI,
+  DEFAULT_CREATED_EMOJI,
+  DEFAULT_BIO_EMOJI,
+} = __nccwpck_require__(6818);
 
 // **************************************************************************
 
@@ -9072,8 +9078,9 @@ async function formatDeatil(arr, w) {
   const userEmoji = core.getInput('user-emoji') || DEFAULT_USER_EMOJI;
   let emojis = [];
   if (userEmoji == 'random') {
-    emojis = sampleSize(USER_EMOJIS, arr.length);
+    emojis = randomSmiley(arr.length);
   }
+  const showEmoji = userEmoji != 'none';
   for (var i = 0; i < arr.length; i += 1) {
     let o = arr[i];
     let u = await queryUser(o.login);
@@ -9082,48 +9089,48 @@ async function formatDeatil(arr, w) {
     <td rowspan="6">
       <img src="${o.avatar_url}" width="${w}" />
     </td>
-    <td width="130">
-      <strong>${emoji} User: </strong>
+    <td width="130" align="left">
+      <strong>${showEmoji ? emoji : ''} User: </strong>
     </td>
     <td>
       <a href="${u.html_url}" target="_blank">${u.login}</a>
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏢 Company: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_COMPANY_EMOJI : ''} Company: </strong>
     </td>
     <td>
       ${getCompany(u.company)}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏠 Location: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_LOCATION_EMOJI : ''} Location: </strong>
     </td>
     <td>
       ${u.location ? u.location : '-'}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>💕 Followers: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_FOLLOWERS_EMOJI : ''} Followers: </strong>
     </td>
     <td>
       ${u.followers ? u.followers : '-'}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🏆 Created: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_CREATED_EMOJI : ''} Created: </strong>
     </td>
     <td>
       ${u.created_at.substring(0, 10)}
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>🎉 Bio: </strong>
+    <td align="left">
+      <strong>${showEmoji ? DEFAULT_BIO_EMOJI : ''} Bio: </strong>
     </td>
     <td>
       ${u.bio ? u.bio : '-'}
@@ -9334,7 +9341,7 @@ const { dealStringToArr } = __nccwpck_require__(55);
 
 const { queryContributors, formatSimple, formatBase, formatDeatil } = __nccwpck_require__(2873);
 
-const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH } = __nccwpck_require__(6818);
+const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH, DEFAULT_TOTAL_EMOJI } = __nccwpck_require__(6818);
 
 const context = github.context;
 
@@ -9350,9 +9357,8 @@ async function run() {
       repo = context.repo.repo;
     }
 
-    const updateFiles = core.getInput('update-files') || 'README.md, README.en-US.md';
-    const updatePlaces =
-      core.getInput('update-places') || '## Contributors List/## 3, ## Contributors List/## 4';
+    const updateFiles = core.getInput('update-files');
+    const updatePlaces = core.getInput('update-places');
 
     const files = dealStringToArr(updateFiles);
     const places = dealStringToArr(updatePlaces);
@@ -9362,7 +9368,14 @@ async function run() {
       return false;
     }
 
-    const contributors = await queryContributors(owner, repo);
+    let contributors = await queryContributors(owner, repo);
+    const blockUsers = core.getInput('block-users') || 'semantic-release-bot, x6-bot[bot]';
+
+    if (blockUsers) {
+      contributors = contributors.filter(c => {
+        return !dealStringToArr(blockUsers).includes(c.login);
+      });
+    }
     core.info(`[Actions: Query] The ${owner}/${repo} has ${contributors.length} contributors.`);
     core.setOutput('contributors', contributors);
     if (files.length == 0) {
@@ -9407,7 +9420,7 @@ ${formatSimple(contributors, avatarWidth)}
     if (showTotal == 'true') {
       body = `
 
-> 📊 Total: <kbd>**${contributors.length}**</kbd>${body}`;
+> ${DEFAULT_TOTAL_EMOJI} Total: <kbd>**${contributors.length}**</kbd>${body}`;
     }
 
     for (var i = 0; i < files.length; i++) {
