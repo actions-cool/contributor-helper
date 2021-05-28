@@ -19,6 +19,7 @@
 ## 🚀 如果使用？
 
 > 你可以参照当前项目的例子来使用：https://github.com/actions-cool/contributor-helper/blob/main/.github/workflows/contributor-help.yml
+> 
 > 触发条件根据需要设置
 
 ```yml
