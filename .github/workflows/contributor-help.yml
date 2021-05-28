@@ -15,14 +15,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-files: 'DEMO.base.md, DEMO.simple.md'
           update-places: '## Contributors List/## hi, ## Contributors List/## hello'
-          repo: 'antvis/G2'
+          repo: 'antvis/X6'
           style: 'simple'
           avatar-width: '66'
 
       - name: Commit and push if changed
         run: |-
           git diff
-          git config --global user.email "actions@github.com"
+          git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
           git pull
           git add -A
