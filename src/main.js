@@ -5,7 +5,13 @@ const { dealStringToArr } = require('actions-util');
 
 const { queryContributors, formatSimple, formatBase, formatDeatil } = require('./tool');
 
-const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH, DEFAULT_TOTAL_EMOJI } = require('./const');
+const {
+  STYLES,
+  DEFAULT_STYLE,
+  DEFAULT_WIDTH,
+  DEFAULT_SHOW_NUMBER,
+  DEFAULT_TOTAL_EMOJI,
+} = require('./const');
 
 const context = github.context;
 
@@ -39,6 +45,12 @@ async function run() {
       contributors = contributors.filter(c => {
         return !dealStringToArr(blockUsers).includes(c.login);
       });
+    }
+
+    let showNumber = core.getInput('show-number') || DEFAULT_SHOW_NUMBER;
+
+    if (contributors.length > showNumber) {
+      contributors = contributors.slice(0, showNumber + 1);
     }
     core.info(`[Actions: Query] The ${owner}/${repo} has ${contributors.length} contributors.`);
     core.setOutput('contributors', contributors);

@@ -2,6 +2,8 @@ const STYLES = ['simple', 'base', 'detail'];
 const DEFAULT_STYLE = 'base';
 const DEFAULT_WIDTH = 50;
 
+const DEFAULT_SHOW_NUMBER = 50;
+
 const DEFAULT_TOTAL_EMOJI = '📊';
 const DEFAULT_USER_EMOJI = '😊';
 const DEFAULT_COMPANY_EMOJI = '🏢';
@@ -14,6 +16,7 @@ module.exports = {
   STYLES,
   DEFAULT_STYLE,
   DEFAULT_WIDTH,
+  DEFAULT_SHOW_NUMBER,
   DEFAULT_TOTAL_EMOJI,
   DEFAULT_USER_EMOJI,
   DEFAULT_COMPANY_EMOJI,

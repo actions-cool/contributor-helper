@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: actions-cool/contributor-helper@v1.0.0
+      - uses: actions-cool/contributor-helper@v1.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-files: 'DEMO.base.md, Demo.simple.md'
@@ -61,6 +61,7 @@ jobs:
 | avatar-width | 头像大小，默认 50，详细样式固定 200。 | ✖ |
 | style | 列表样式，默认为 `base`，可选 `simple` `detail`。 | ✖ |
 | show-total | 是否显示总数，默认为 true。 | ✖ |
+| show-number | 显示头像的总数量，默认为 50。 | ✖ |
 | user-emoji | 自定义详细样式 User 前的 emoji，当为 `random` 时，会随机选取。 | ✖ |
 
 ### Outputs

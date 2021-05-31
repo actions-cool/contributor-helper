@@ -1,6 +1,5 @@
 {
   "name": "action-js-template",
-  "version": "0.0.1",
   "private": true,
   "description": "A javascript template for rapid development of GitHub actions.",
   "main": "src/main.js",

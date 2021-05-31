@@ -8967,6 +8967,8 @@ const STYLES = ['simple', 'base', 'detail'];
 const DEFAULT_STYLE = 'base';
 const DEFAULT_WIDTH = 50;
 
+const DEFAULT_SHOW_NUMBER = 50;
+
 const DEFAULT_TOTAL_EMOJI = '📊';
 const DEFAULT_USER_EMOJI = '😊';
 const DEFAULT_COMPANY_EMOJI = '🏢';
@@ -8979,6 +8981,7 @@ module.exports = {
   STYLES,
   DEFAULT_STYLE,
   DEFAULT_WIDTH,
+  DEFAULT_SHOW_NUMBER,
   DEFAULT_TOTAL_EMOJI,
   DEFAULT_USER_EMOJI,
   DEFAULT_COMPANY_EMOJI,
@@ -9341,7 +9344,13 @@ const { dealStringToArr } = __nccwpck_require__(55);
 
 const { queryContributors, formatSimple, formatBase, formatDeatil } = __nccwpck_require__(2873);
 
-const { STYLES, DEFAULT_STYLE, DEFAULT_WIDTH, DEFAULT_TOTAL_EMOJI } = __nccwpck_require__(6818);
+const {
+  STYLES,
+  DEFAULT_STYLE,
+  DEFAULT_WIDTH,
+  DEFAULT_SHOW_NUMBER,
+  DEFAULT_TOTAL_EMOJI,
+} = __nccwpck_require__(6818);
 
 const context = github.context;
 
@@ -9375,6 +9384,12 @@ async function run() {
       contributors = contributors.filter(c => {
         return !dealStringToArr(blockUsers).includes(c.login);
       });
+    }
+
+    let showNumber = core.getInput('show-number') || DEFAULT_SHOW_NUMBER;
+
+    if (contributors.length > showNumber) {
+      contributors = contributors.slice(0, showNumber + 1);
     }
     core.info(`[Actions: Query] The ${owner}/${repo} has ${contributors.length} contributors.`);
     core.setOutput('contributors', contributors);

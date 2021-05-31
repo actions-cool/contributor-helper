@@ -27,6 +27,8 @@ inputs:
     description: The contributor list style. Option simple base detail.
   show-total:
     description: Whether show tatal number.
+  show-number:
+    description: The number show.
   user-emoji:
     description: Customize the emoji before user.
 
