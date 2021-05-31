@@ -13,8 +13,17 @@ jobs:
       - uses: actions-cool/contributor-helper@v1.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          update-files: 'DEMO.base.md, DEMO.simple.md'
-          update-places: '## Contributors List/## hi, ## Contributors List/## hello'
+          update-files: 'DEMO.base.md'
+          update-places: '## Contributors List/## hi'
+          repo: 'antvis/X6'
+          style: 'base'
+          avatar-width: '66'
+
+      - uses: actions-cool/contributor-helper@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          update-files: 'DEMO.simple.md'
+          update-places: '## Contributors List/## hello'
           repo: 'antvis/X6'
           style: 'simple'
           avatar-width: '66'
