@@ -67,25 +67,25 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/OpportunityLiu" title="OpportunityLiu">
+        <img src="https://avatars.githubusercontent.com/u/13471233?v=4" width="66" />
+        <br />
+        OpportunityLiu
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/qianjujie" title="qianjujie">
         <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
         <br />
         qianjujie
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/prncoprs" title="prncoprs">
         <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
         <br />
         prncoprs
-      </a>
-    </td>
-  </tr><tr>
-    <td width="150" align="center">
-      <a href="https://github.com/OpportunityLiu" title="OpportunityLiu">
-        <img src="https://avatars.githubusercontent.com/u/13471233?v=4" width="66" />
-        <br />
-        OpportunityLiu
       </a>
     </td>
     <td width="150" align="center">
