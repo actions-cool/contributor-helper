@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**26**</kbd>
+> 📊 Total: <kbd>**27**</kbd>
 
 <table>
   <tr>
@@ -125,6 +125,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/BARMPlus" title="BARMPlus">
+        <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
+        <br />
+        BARMPlus
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/ImgBotApp" title="ImgBotApp">
         <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="66" />
         <br />
@@ -145,6 +152,7 @@
         sskyy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
@@ -152,7 +160,6 @@
         breezefaith
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/apps/imgbot" title="imgbot[bot]">
         <img src="https://avatars.githubusercontent.com/in/4706?v=4" width="66" />
@@ -181,6 +188,7 @@
         lvhuiyang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
@@ -188,15 +196,12 @@
         social-uni
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/yangling1996" title="yangling1996">
         <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
         <br />
         yangling1996
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
