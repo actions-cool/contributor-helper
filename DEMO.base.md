@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**27**</kbd>
+> 📊 Total: <kbd>**28**</kbd>
 
 <table>
   <tr>
@@ -139,12 +139,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/jeggy" title="jeggy">
+        <img src="https://avatars.githubusercontent.com/u/51459?v=4" width="66" />
+        <br />
+        jeggy
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/lyn-boyu" title="lyn-boyu">
         <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
         <br />
         lyn-boyu
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
@@ -152,7 +160,6 @@
         sskyy
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
@@ -181,6 +188,7 @@
         chunwei
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -188,7 +196,6 @@
         lvhuiyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
@@ -202,8 +209,6 @@
         <br />
         yangling1996
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
