@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**28**</kbd>
+> 📊 Total: <kbd>**29**</kbd>
 
 <table>
   <tr>
@@ -132,6 +132,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/halodong" title="halodong">
+        <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
+        <br />
+        halodong
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/ImgBotApp" title="ImgBotApp">
         <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="66" />
         <br />
@@ -145,6 +152,7 @@
         jeggy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lyn-boyu" title="lyn-boyu">
         <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
@@ -152,7 +160,6 @@
         lyn-boyu
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
@@ -181,6 +188,7 @@
         kioyang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -188,7 +196,6 @@
         chunwei
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -209,8 +216,6 @@
         <br />
         yangling1996
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
