@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**29**</kbd>
+> 📊 Total: <kbd>**30**</kbd>
 
 <table>
   <tr>
@@ -175,12 +175,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/Jim-jw" title="Jim-jw">
+        <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
+        <br />
+        Jim-jw
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/apps/imgbot" title="imgbot[bot]">
         <img src="https://avatars.githubusercontent.com/in/4706?v=4" width="66" />
         <br />
         imgbot[bot]
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/kioyang" title="kioyang">
         <img src="https://avatars.githubusercontent.com/u/25734238?v=4" width="66" />
@@ -188,7 +196,6 @@
         kioyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -216,8 +223,6 @@
         <br />
         yangling1996
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
   </tr>
 </table>
