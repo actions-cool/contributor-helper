@@ -96,6 +96,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
+        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
+        <br />
+        lyn-boyu
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/sscfaith" title="sscfaith">
         <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
         <br />
@@ -109,6 +116,7 @@
         luzhuang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/xrkffgg" title="xrkffgg">
         <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="66" />
@@ -116,7 +124,13 @@
         xrkffgg
       </a>
     </td>
-  </tr><tr>
+    <td width="150" align="center">
+      <a href="https://github.com/yangling1996" title="yangling1996">
+        <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
+        <br />
+        yangling1996
+      </a>
+    </td>
     <td width="150" align="center">
       <a href="https://github.com/daigang666" title="daigang666">
         <img src="https://avatars.githubusercontent.com/u/42136433?v=4" width="66" />
@@ -138,6 +152,7 @@
         halodong
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Draco-china" title="Draco-china">
         <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
@@ -152,19 +167,11 @@
         ImgBotApp
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/jeggy" title="jeggy">
         <img src="https://avatars.githubusercontent.com/u/51459?v=4" width="66" />
         <br />
         jeggy
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
-        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
-        <br />
-        lyn-boyu
       </a>
     </td>
     <td width="150" align="center">
@@ -181,6 +188,7 @@
         sskyy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
@@ -188,7 +196,6 @@
         breezefaith
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
@@ -217,6 +224,7 @@
         chunwei
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -224,19 +232,11 @@
         lvhuiyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
         <br />
         social-uni
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/yangling1996" title="yangling1996">
-        <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
-        <br />
-        yangling1996
       </a>
     </td>
     <td width="150" align="center">
