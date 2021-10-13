@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**33**</kbd>
+> 📊 Total: <kbd>**34**</kbd>
 
 <table>
   <tr>
@@ -182,13 +182,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/ChipNowacek" title="ChipNowacek">
+        <img src="https://avatars.githubusercontent.com/u/3668197?v=4" width="66" />
+        <br />
+        ChipNowacek
+      </a>
+    </td>
+  </tr><tr>
+    <td width="150" align="center">
       <a href="https://github.com/GreatAuk" title="GreatAuk">
         <img src="https://avatars.githubusercontent.com/u/20253809?v=4" width="66" />
         <br />
         GreatAuk
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
@@ -217,6 +224,7 @@
         imgbot[bot]
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/kioyang" title="kioyang">
         <img src="https://avatars.githubusercontent.com/u/25734238?v=4" width="66" />
@@ -224,7 +232,6 @@
         kioyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -245,8 +252,6 @@
         <br />
         social-uni
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
