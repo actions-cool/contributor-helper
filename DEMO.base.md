@@ -74,18 +74,18 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/qianjujie" title="qianjujie">
-        <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
-        <br />
-        qianjujie
-      </a>
-    </td>
-  </tr><tr>
-    <td width="150" align="center">
       <a href="https://github.com/Eve-Sama" title="Eve-Sama">
         <img src="https://avatars.githubusercontent.com/u/30228406?v=4" width="66" />
         <br />
         Eve-Sama
+      </a>
+    </td>
+  </tr><tr>
+    <td width="150" align="center">
+      <a href="https://github.com/qianjujie" title="qianjujie">
+        <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
+        <br />
+        qianjujie
       </a>
     </td>
     <td width="150" align="center">
