@@ -5,16 +5,16 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**36**</kbd>
+> 📊 Total: <kbd>**37**</kbd>
 
 <a href="https://github.com/bubkoo" title="bubkoo">
   <img src="https://avatars.githubusercontent.com/u/6045824?v=4" width="66" />
 </a>
-<a href="https://github.com/semantic-release-bot" title="semantic-release-bot">
-  <img src="https://avatars.githubusercontent.com/u/32174276?v=4" width="66" />
-</a>
 <a href="https://github.com/NewByVector" title="NewByVector">
   <img src="https://avatars.githubusercontent.com/u/20186737?v=4" width="66" />
+</a>
+<a href="https://github.com/semantic-release-bot" title="semantic-release-bot">
+  <img src="https://avatars.githubusercontent.com/u/32174276?v=4" width="66" />
 </a>
 <a href="https://github.com/apps/x6-bot" title="x6-bot[bot]">
   <img src="https://avatars.githubusercontent.com/in/81133?v=4" width="66" />
@@ -39,6 +39,9 @@
 </a>
 <a href="https://github.com/qianjujie" title="qianjujie">
   <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
+</a>
+<a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+  <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
 </a>
 <a href="https://github.com/prncoprs" title="prncoprs">
   <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />

@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**36**</kbd>
+> 📊 Total: <kbd>**37**</kbd>
 
 <table>
   <tr>
@@ -17,17 +17,17 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/semantic-release-bot" title="semantic-release-bot">
-        <img src="https://avatars.githubusercontent.com/u/32174276?v=4" width="66" />
-        <br />
-        semantic-release-bot
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/NewByVector" title="NewByVector">
         <img src="https://avatars.githubusercontent.com/u/20186737?v=4" width="66" />
         <br />
         NewByVector
+      </a>
+    </td>
+    <td width="150" align="center">
+      <a href="https://github.com/semantic-release-bot" title="semantic-release-bot">
+        <img src="https://avatars.githubusercontent.com/u/32174276?v=4" width="66" />
+        <br />
+        semantic-release-bot
       </a>
     </td>
     <td width="150" align="center">
@@ -89,6 +89,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+        <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
+        <br />
+        dependabot[bot]
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/prncoprs" title="prncoprs">
         <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
         <br />
@@ -109,6 +116,7 @@
         sscfaith
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lopn" title="lopn">
         <img src="https://avatars.githubusercontent.com/u/9405275?v=4" width="66" />
@@ -116,7 +124,6 @@
         lopn
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/luzhuang" title="luzhuang">
         <img src="https://avatars.githubusercontent.com/u/10904030?v=4" width="66" />
@@ -145,6 +152,7 @@
         daigang666
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/BARMPlus" title="BARMPlus">
         <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
@@ -152,7 +160,6 @@
         BARMPlus
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/halodong" title="halodong">
         <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
@@ -181,6 +188,7 @@
         jeggy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/olivewind" title="olivewind">
         <img src="https://avatars.githubusercontent.com/u/17901361?v=4" width="66" />
@@ -188,7 +196,6 @@
         olivewind
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/ChipNowacek" title="ChipNowacek">
         <img src="https://avatars.githubusercontent.com/u/3668197?v=4" width="66" />
@@ -217,6 +224,7 @@
         breezefaith
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
@@ -224,7 +232,6 @@
         Jim-jw
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/iceytea" title="iceytea">
         <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
@@ -253,6 +260,7 @@
         chunwei
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -260,15 +268,12 @@
         lvhuiyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
         <br />
         social-uni
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
