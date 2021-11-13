@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**37**</kbd>
+> 📊 Total: <kbd>**38**</kbd>
 
 <table>
   <tr>
@@ -269,13 +269,18 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/niexq" title="niexq">
+        <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
+        <br />
+        niexq
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
         <br />
         social-uni
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
