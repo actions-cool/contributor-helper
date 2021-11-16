@@ -154,6 +154,13 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
+      <a href="https://github.com/niexq" title="niexq">
+        <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
+        <br />
+        niexq
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/BARMPlus" title="BARMPlus">
         <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
         <br />
@@ -181,6 +188,7 @@
         ImgBotApp
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/jeggy" title="jeggy">
         <img src="https://avatars.githubusercontent.com/u/51459?v=4" width="66" />
@@ -188,7 +196,6 @@
         jeggy
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/olivewind" title="olivewind">
         <img src="https://avatars.githubusercontent.com/u/17901361?v=4" width="66" />
@@ -217,6 +224,7 @@
         sskyy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
@@ -224,7 +232,6 @@
         breezefaith
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
@@ -253,6 +260,7 @@
         kioyang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -260,19 +268,11 @@
         chunwei
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
         <br />
         lvhuiyang
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/niexq" title="niexq">
-        <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
-        <br />
-        niexq
       </a>
     </td>
     <td width="150" align="center">

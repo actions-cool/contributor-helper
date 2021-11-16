@@ -67,6 +67,9 @@
 <a href="https://github.com/daigang666" title="daigang666">
   <img src="https://avatars.githubusercontent.com/u/42136433?v=4" width="66" />
 </a>
+<a href="https://github.com/niexq" title="niexq">
+  <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
+</a>
 <a href="https://github.com/BARMPlus" title="BARMPlus">
   <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
 </a>
@@ -114,9 +117,6 @@
 </a>
 <a href="https://github.com/lvhuiyang" title="lvhuiyang">
   <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
-</a>
-<a href="https://github.com/niexq" title="niexq">
-  <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
 </a>
 <a href="https://github.com/social-uni" title="social-uni">
   <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
