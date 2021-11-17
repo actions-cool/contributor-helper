@@ -96,17 +96,17 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/prncoprs" title="prncoprs">
-        <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
-        <br />
-        prncoprs
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/lyn-boyu" title="lyn-boyu">
         <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
         <br />
         lyn-boyu
+      </a>
+    </td>
+    <td width="150" align="center">
+      <a href="https://github.com/prncoprs" title="prncoprs">
+        <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
+        <br />
+        prncoprs
       </a>
     </td>
     <td width="150" align="center">

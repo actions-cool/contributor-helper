@@ -43,11 +43,11 @@
 <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
   <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
 </a>
-<a href="https://github.com/prncoprs" title="prncoprs">
-  <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
-</a>
 <a href="https://github.com/lyn-boyu" title="lyn-boyu">
   <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
+</a>
+<a href="https://github.com/prncoprs" title="prncoprs">
+  <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
 </a>
 <a href="https://github.com/sscfaith" title="sscfaith">
   <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
