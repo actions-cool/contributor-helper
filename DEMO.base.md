@@ -82,6 +82,13 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
+      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
+        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
+        <br />
+        lyn-boyu
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/qianjujie" title="qianjujie">
         <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
         <br />
@@ -93,13 +100,6 @@
         <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
         <br />
         dependabot[bot]
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
-        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
-        <br />
-        lyn-boyu
       </a>
     </td>
     <td width="150" align="center">
