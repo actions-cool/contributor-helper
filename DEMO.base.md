@@ -103,12 +103,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/niexq" title="niexq">
+        <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
+        <br />
+        niexq
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/prncoprs" title="prncoprs">
         <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
         <br />
         prncoprs
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sscfaith" title="sscfaith">
         <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
@@ -116,7 +124,6 @@
         sscfaith
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lopn" title="lopn">
         <img src="https://avatars.githubusercontent.com/u/9405275?v=4" width="66" />
@@ -145,19 +152,12 @@
         yangling1996
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/daigang666" title="daigang666">
         <img src="https://avatars.githubusercontent.com/u/42136433?v=4" width="66" />
         <br />
         daigang666
-      </a>
-    </td>
-  </tr><tr>
-    <td width="150" align="center">
-      <a href="https://github.com/niexq" title="niexq">
-        <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
-        <br />
-        niexq
       </a>
     </td>
     <td width="150" align="center">
