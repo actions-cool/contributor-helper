@@ -60,12 +60,27 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
+        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
+        <br />
+        lyn-boyu
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/OpportunityLiu" title="OpportunityLiu">
         <img src="https://avatars.githubusercontent.com/u/13471233?v=4" width="66" />
         <br />
         OpportunityLiu
       </a>
     </td>
+    <td width="150" align="center">
+      <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+        <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
+        <br />
+        dependabot[bot]
+      </a>
+    </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/zdc1111" title="zdc1111">
         <img src="https://avatars.githubusercontent.com/u/39116292?v=4" width="66" />
@@ -80,26 +95,11 @@
         Eve-Sama
       </a>
     </td>
-  </tr><tr>
-    <td width="150" align="center">
-      <a href="https://github.com/lyn-boyu" title="lyn-boyu">
-        <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
-        <br />
-        lyn-boyu
-      </a>
-    </td>
     <td width="150" align="center">
       <a href="https://github.com/qianjujie" title="qianjujie">
         <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
         <br />
         qianjujie
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
-        <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
-        <br />
-        dependabot[bot]
       </a>
     </td>
     <td width="150" align="center">

@@ -28,8 +28,14 @@
 <a href="https://github.com/wtzeng1" title="wtzeng1">
   <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />
 </a>
+<a href="https://github.com/lyn-boyu" title="lyn-boyu">
+  <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
+</a>
 <a href="https://github.com/OpportunityLiu" title="OpportunityLiu">
   <img src="https://avatars.githubusercontent.com/u/13471233?v=4" width="66" />
+</a>
+<a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+  <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
 </a>
 <a href="https://github.com/zdc1111" title="zdc1111">
   <img src="https://avatars.githubusercontent.com/u/39116292?v=4" width="66" />
@@ -37,14 +43,8 @@
 <a href="https://github.com/Eve-Sama" title="Eve-Sama">
   <img src="https://avatars.githubusercontent.com/u/30228406?v=4" width="66" />
 </a>
-<a href="https://github.com/lyn-boyu" title="lyn-boyu">
-  <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
-</a>
 <a href="https://github.com/qianjujie" title="qianjujie">
   <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
-</a>
-<a href="https://github.com/apps/dependabot" title="dependabot[bot]">
-  <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
 </a>
 <a href="https://github.com/niexq" title="niexq">
   <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
