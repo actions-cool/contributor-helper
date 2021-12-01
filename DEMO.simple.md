@@ -76,7 +76,7 @@
 <a href="https://github.com/halodong" title="halodong">
   <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
 </a>
-<a href="https://github.com/Draco-china" title="Draco-china">
+<a href="https://github.com/draco-china" title="draco-china">
   <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
 </a>
 <a href="https://github.com/ImgBotApp" title="ImgBotApp">

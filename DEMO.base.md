@@ -175,10 +175,10 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/Draco-china" title="Draco-china">
+      <a href="https://github.com/draco-china" title="draco-china">
         <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
         <br />
-        Draco-china
+        draco-china
       </a>
     </td>
     <td width="150" align="center">
