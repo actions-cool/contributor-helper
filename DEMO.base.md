@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**39**</kbd>
+> 📊 Total: <kbd>**40**</kbd>
 
 <table>
   <tr>
@@ -168,6 +168,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/cliffordfajardo" title="cliffordfajardo">
+        <img src="https://avatars.githubusercontent.com/u/6743796?v=4" width="66" />
+        <br />
+        cliffordfajardo
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/halodong" title="halodong">
         <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
         <br />
@@ -181,6 +188,7 @@
         draco-china
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/ImgBotApp" title="ImgBotApp">
         <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="66" />
@@ -188,7 +196,6 @@
         ImgBotApp
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/jeggy" title="jeggy">
         <img src="https://avatars.githubusercontent.com/u/51459?v=4" width="66" />
@@ -217,6 +224,7 @@
         ChipNowacek
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/GreatAuk" title="GreatAuk">
         <img src="https://avatars.githubusercontent.com/u/20253809?v=4" width="66" />
@@ -224,7 +232,6 @@
         GreatAuk
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
@@ -253,6 +260,7 @@
         iceytea
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/apps/imgbot" title="imgbot[bot]">
         <img src="https://avatars.githubusercontent.com/in/4706?v=4" width="66" />
@@ -260,7 +268,6 @@
         imgbot[bot]
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/kioyang" title="kioyang">
         <img src="https://avatars.githubusercontent.com/u/25734238?v=4" width="66" />
@@ -288,8 +295,6 @@
         <br />
         social-uni
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
   </tr>
 </table>
