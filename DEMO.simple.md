@@ -70,14 +70,14 @@
 <a href="https://github.com/daigang666" title="daigang666">
   <img src="https://avatars.githubusercontent.com/u/42136433?v=4" width="66" />
 </a>
+<a href="https://github.com/halodong" title="halodong">
+  <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
+</a>
 <a href="https://github.com/BARMPlus" title="BARMPlus">
   <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
 </a>
 <a href="https://github.com/cliffordfajardo" title="cliffordfajardo">
   <img src="https://avatars.githubusercontent.com/u/6743796?v=4" width="66" />
-</a>
-<a href="https://github.com/halodong" title="halodong">
-  <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
 </a>
 <a href="https://github.com/draco-china" title="draco-china">
   <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
@@ -112,7 +112,7 @@
 <a href="https://github.com/Jim-jw" title="Jim-jw">
   <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
 </a>
-<a href="https://github.com/iceytea" title="iceytea">
+<a href="https://github.com/acev-online" title="acev-online">
   <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
 </a>
 <a href="https://github.com/apps/imgbot" title="imgbot[bot]">

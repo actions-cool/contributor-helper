@@ -161,6 +161,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/halodong" title="halodong">
+        <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
+        <br />
+        halodong
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/BARMPlus" title="BARMPlus">
         <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
         <br />
@@ -172,13 +179,6 @@
         <img src="https://avatars.githubusercontent.com/u/6743796?v=4" width="66" />
         <br />
         cliffordfajardo
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/halodong" title="halodong">
-        <img src="https://avatars.githubusercontent.com/u/48054715?v=4" width="66" />
-        <br />
-        halodong
       </a>
     </td>
     <td width="150" align="center">
@@ -262,10 +262,10 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
-      <a href="https://github.com/iceytea" title="iceytea">
+      <a href="https://github.com/acev-online" title="acev-online">
         <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
         <br />
-        iceytea
+        acev-online
       </a>
     </td>
     <td width="150" align="center">
