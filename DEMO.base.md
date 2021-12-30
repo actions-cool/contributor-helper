@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**41**</kbd>
+> 📊 Total: <kbd>**42**</kbd>
 
 <table>
   <tr>
@@ -283,12 +283,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/lijing666" title="lijing666">
+        <img src="https://avatars.githubusercontent.com/u/26834700?v=4" width="66" />
+        <br />
+        lijing666
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
         <br />
         chunwei
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -296,15 +304,12 @@
         lvhuiyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
         <br />
         social-uni
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
