@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**42**</kbd>
+> 📊 Total: <kbd>**44**</kbd>
 
 <a href="https://github.com/bubkoo" title="bubkoo">
   <img src="https://avatars.githubusercontent.com/u/6045824?v=4" width="66" />
@@ -132,6 +132,12 @@
 </a>
 <a href="https://github.com/social-uni" title="social-uni">
   <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
+</a>
+<a href="https://github.com/evelope" title="evelope">
+  <img src="https://avatars.githubusercontent.com/u/34190465?v=4" width="66" />
+</a>
+<a href="https://github.com/cijiugechu" title="cijiugechu">
+  <img src="https://avatars.githubusercontent.com/u/32487868?v=4" width="66" />
 </a>
 
 ## hello
