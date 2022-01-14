@@ -60,17 +60,17 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
-        <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
-        <br />
-        dependabot[bot]
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/lyn-boyu" title="lyn-boyu">
         <img src="https://avatars.githubusercontent.com/u/47809781?v=4" width="66" />
         <br />
         lyn-boyu
+      </a>
+    </td>
+    <td width="150" align="center">
+      <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
+        <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
+        <br />
+        dependabot[bot]
       </a>
     </td>
     <td width="150" align="center">
