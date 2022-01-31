@@ -53,10 +53,10 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/wtzeng1" title="wtzeng1">
+      <a href="https://github.com/jtsang4" title="jtsang4">
         <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />
         <br />
-        wtzeng1
+        jtsang4
       </a>
     </td>
     <td width="150" align="center">

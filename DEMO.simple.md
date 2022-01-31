@@ -25,7 +25,7 @@
 <a href="https://github.com/afc163" title="afc163">
   <img src="https://avatars.githubusercontent.com/u/507615?v=4" width="66" />
 </a>
-<a href="https://github.com/wtzeng1" title="wtzeng1">
+<a href="https://github.com/jtsang4" title="jtsang4">
   <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />
 </a>
 <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
