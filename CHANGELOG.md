@@ -1,4 +1,17 @@
+<!--
+🐞 Bug fix
+🚀 New feature
+💄 Perf
+📝 Docs
+⚡️ Code style
+🛠 refactor
+-->
+
 # Changelog
+
+## v1.2.1
+
+- 🐞 fix: `queryContributors` function typo.
 
 ## v1.2.0
 

@@ -9023,7 +9023,7 @@ async function queryContributors(owner, repo, page = 1) {
   });
 
   if (contributors.length >= 100) {
-    contributors = contributors.concat(await queryContributions(page + 1));
+    contributors = contributors.concat(await queryContributors(page + 1));
   }
 
   return contributors;
