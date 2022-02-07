@@ -11,6 +11,8 @@
 
 ## v1.2.1
 
+`2022.02.07`
+
 - 🐞 fix: `queryContributors` function typo.
 
 ## v1.2.0

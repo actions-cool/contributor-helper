@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: actions-cool/contributor-helper@v1.2.0
+      - uses: actions-cool/contributor-helper@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-files: 'DEMO.base.md, Demo.simple.md'
