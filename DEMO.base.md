@@ -53,17 +53,17 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/jtsang4" title="jtsang4">
-        <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />
-        <br />
-        jtsang4
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
         <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
         <br />
         dependabot[bot]
+      </a>
+    </td>
+    <td width="150" align="center">
+      <a href="https://github.com/jtsang4" title="jtsang4">
+        <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />
+        <br />
+        jtsang4
       </a>
     </td>
     <td width="150" align="center">
