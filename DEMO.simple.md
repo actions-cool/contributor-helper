@@ -22,11 +22,11 @@
 <a href="https://github.com/apps/dependabot-preview" title="dependabot-preview[bot]">
   <img src="https://avatars.githubusercontent.com/in/2141?v=4" width="66" />
 </a>
-<a href="https://github.com/afc163" title="afc163">
-  <img src="https://avatars.githubusercontent.com/u/507615?v=4" width="66" />
-</a>
 <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
   <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
+</a>
+<a href="https://github.com/afc163" title="afc163">
+  <img src="https://avatars.githubusercontent.com/u/507615?v=4" width="66" />
 </a>
 <a href="https://github.com/jtsang4" title="jtsang4">
   <img src="https://avatars.githubusercontent.com/u/17686135?v=4" width="66" />

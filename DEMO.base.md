@@ -46,17 +46,17 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
-      <a href="https://github.com/afc163" title="afc163">
-        <img src="https://avatars.githubusercontent.com/u/507615?v=4" width="66" />
-        <br />
-        afc163
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/apps/dependabot" title="dependabot[bot]">
         <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="66" />
         <br />
         dependabot[bot]
+      </a>
+    </td>
+    <td width="150" align="center">
+      <a href="https://github.com/afc163" title="afc163">
+        <img src="https://avatars.githubusercontent.com/u/507615?v=4" width="66" />
+        <br />
+        afc163
       </a>
     </td>
     <td width="150" align="center">
