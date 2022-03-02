@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**44**</kbd>
+> 📊 Total: <kbd>**45**</kbd>
 
 <table>
   <tr>
@@ -319,13 +319,18 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/wjqsummer" title="wjqsummer">
+        <img src="https://avatars.githubusercontent.com/u/52412389?v=4" width="66" />
+        <br />
+        wjqsummer
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/cijiugechu" title="cijiugechu">
         <img src="https://avatars.githubusercontent.com/u/32487868?v=4" width="66" />
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
   </tr>
 </table>
