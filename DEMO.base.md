@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**46**</kbd>
+> 📊 Total: <kbd>**45**</kbd>
 
 <table>
   <tr>
@@ -262,10 +262,10 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
-      <a href="https://github.com/liyunhejustme" title="liyunhejustme">
+      <a href="https://github.com/justyunhe" title="justyunhe">
         <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
         <br />
-        liyunhejustme
+        justyunhe
       </a>
     </td>
     <td width="150" align="center">
@@ -305,13 +305,6 @@
       </a>
     </td>
     <td width="150" align="center">
-      <a href="https://github.com/social-uni" title="social-uni">
-        <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
-        <br />
-        social-uni
-      </a>
-    </td>
-    <td width="150" align="center">
       <a href="https://github.com/evelope" title="evelope">
         <img src="https://avatars.githubusercontent.com/u/34190465?v=4" width="66" />
         <br />
@@ -332,21 +325,12 @@
         DanielLeefu
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/cijiugechu" title="cijiugechu">
         <img src="https://avatars.githubusercontent.com/u/32487868?v=4" width="66" />
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
-    </td>
-    <td width="150" align="center">
-    </td>
-    <td width="150" align="center">
-    </td>
-    <td width="150" align="center">
     </td>
   </tr>
 </table>
