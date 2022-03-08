@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**45**</kbd>
+> 📊 Total: <kbd>**46**</kbd>
 
 <table>
   <tr>
@@ -240,6 +240,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/xlzy520" title="xlzy520">
+        <img src="https://avatars.githubusercontent.com/u/28336270?v=4" width="66" />
+        <br />
+        xlzy520
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
         <br />
@@ -253,6 +260,7 @@
         breezefaith
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
@@ -260,7 +268,6 @@
         Jim-jw
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/justyunhe" title="justyunhe">
         <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
@@ -289,6 +296,7 @@
         lijing666
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -296,7 +304,6 @@
         chunwei
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -325,12 +332,21 @@
         DanielLeefu
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/cijiugechu" title="cijiugechu">
         <img src="https://avatars.githubusercontent.com/u/32487868?v=4" width="66" />
         <br />
         cijiugechu
       </a>
+    </td>
+    <td width="150" align="center">
+    </td>
+    <td width="150" align="center">
+    </td>
+    <td width="150" align="center">
+    </td>
+    <td width="150" align="center">
     </td>
   </tr>
 </table>
