@@ -146,13 +146,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/DanielLeefu" title="DanielLeefu">
+        <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
+        <br />
+        DanielLeefu
+      </a>
+    </td>
+  </tr><tr>
+    <td width="150" align="center">
       <a href="https://github.com/yangling1996" title="yangling1996">
         <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
         <br />
         yangling1996
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/daigang666" title="daigang666">
         <img src="https://avatars.githubusercontent.com/u/42136433?v=4" width="66" />
@@ -181,6 +188,7 @@
         cliffordfajardo
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/draco-china" title="draco-china">
         <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
@@ -188,7 +196,6 @@
         draco-china
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/ImgBotApp" title="ImgBotApp">
         <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="66" />
@@ -217,6 +224,7 @@
         olivewind
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/ChipNowacek" title="ChipNowacek">
         <img src="https://avatars.githubusercontent.com/u/3668197?v=4" width="66" />
@@ -224,7 +232,6 @@
         ChipNowacek
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/tonywu6" title="tonywu6">
         <img src="https://avatars.githubusercontent.com/u/93302820?v=4" width="66" />
@@ -253,6 +260,7 @@
         sskyy
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
@@ -260,7 +268,6 @@
         breezefaith
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
@@ -289,6 +296,7 @@
         kioyang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lijing666" title="lijing666">
         <img src="https://avatars.githubusercontent.com/u/26834700?v=4" width="66" />
@@ -296,7 +304,6 @@
         lijing666
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/chunwei" title="chunwei">
         <img src="https://avatars.githubusercontent.com/u/1955067?v=4" width="66" />
@@ -323,13 +330,6 @@
         <img src="https://avatars.githubusercontent.com/u/52412389?v=4" width="66" />
         <br />
         wjqsummer
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/DanielLeefu" title="DanielLeefu">
-        <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
-        <br />
-        DanielLeefu
       </a>
     </td>
   </tr><tr>
