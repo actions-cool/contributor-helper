@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**47**</kbd>
+> 📊 Total: <kbd>**48**</kbd>
 
 <table>
   <tr>
@@ -262,6 +262,13 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
+      <a href="https://github.com/arthur657834" title="arthur657834">
+        <img src="https://avatars.githubusercontent.com/u/9419700?v=4" width="66" />
+        <br />
+        arthur657834
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/breezefaith" title="breezefaith">
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
         <br />
@@ -289,6 +296,7 @@
         imgbot[bot]
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/kioyang" title="kioyang">
         <img src="https://avatars.githubusercontent.com/u/25734238?v=4" width="66" />
@@ -296,7 +304,6 @@
         kioyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lijing666" title="lijing666">
         <img src="https://avatars.githubusercontent.com/u/26834700?v=4" width="66" />
@@ -325,6 +332,7 @@
         evelope
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/wjqsummer" title="wjqsummer">
         <img src="https://avatars.githubusercontent.com/u/52412389?v=4" width="66" />
@@ -332,7 +340,6 @@
         wjqsummer
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/avrinfly" title="avrinfly">
         <img src="https://avatars.githubusercontent.com/u/30068005?v=4" width="66" />
@@ -346,8 +353,6 @@
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
