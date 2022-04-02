@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**48**</kbd>
+> 📊 Total: <kbd>**49**</kbd>
 
 <table>
   <tr>
@@ -326,13 +326,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/social-uni" title="social-uni">
+        <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
+        <br />
+        social-uni
+      </a>
+    </td>
+  </tr><tr>
+    <td width="150" align="center">
       <a href="https://github.com/evelope" title="evelope">
         <img src="https://avatars.githubusercontent.com/u/34190465?v=4" width="66" />
         <br />
         evelope
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/wjqsummer" title="wjqsummer">
         <img src="https://avatars.githubusercontent.com/u/52412389?v=4" width="66" />
@@ -353,8 +360,6 @@
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
