@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**49**</kbd>
+> 📊 Total: <kbd>**50**</kbd>
 
 <table>
   <tr>
@@ -334,6 +334,13 @@
     </td>
   </tr><tr>
     <td width="150" align="center">
+      <a href="https://github.com/sallen450" title="sallen450">
+        <img src="https://avatars.githubusercontent.com/u/4767115?v=4" width="66" />
+        <br />
+        sallen450
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/evelope" title="evelope">
         <img src="https://avatars.githubusercontent.com/u/34190465?v=4" width="66" />
         <br />
@@ -360,8 +367,6 @@
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
   </tr>
 </table>
