@@ -103,12 +103,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/DanielLeefu" title="DanielLeefu">
+        <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
+        <br />
+        DanielLeefu
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/niexq" title="niexq">
         <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
         <br />
         niexq
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/prncoprs" title="prncoprs">
         <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
@@ -116,7 +124,6 @@
         prncoprs
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sscfaith" title="sscfaith">
         <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
@@ -143,13 +150,6 @@
         <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="66" />
         <br />
         xrkffgg
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/DanielLeefu" title="DanielLeefu">
-        <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
-        <br />
-        DanielLeefu
       </a>
     </td>
   </tr><tr>

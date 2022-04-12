@@ -46,6 +46,9 @@
 <a href="https://github.com/qianjujie" title="qianjujie">
   <img src="https://avatars.githubusercontent.com/u/16394538?v=4" width="66" />
 </a>
+<a href="https://github.com/DanielLeefu" title="DanielLeefu">
+  <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
+</a>
 <a href="https://github.com/niexq" title="niexq">
   <img src="https://avatars.githubusercontent.com/u/16329407?v=4" width="66" />
 </a>
@@ -63,9 +66,6 @@
 </a>
 <a href="https://github.com/xrkffgg" title="xrkffgg">
   <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="66" />
-</a>
-<a href="https://github.com/DanielLeefu" title="DanielLeefu">
-  <img src="https://avatars.githubusercontent.com/u/52592929?v=4" width="66" />
 </a>
 <a href="https://github.com/yangling1996" title="yangling1996">
   <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
