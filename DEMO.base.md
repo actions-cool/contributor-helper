@@ -5,7 +5,7 @@
 
 ## Contributors List
 
-> 📊 Total: <kbd>**51**</kbd>
+> 📊 Total: <kbd>**52**</kbd>
 
 <table>
   <tr>
@@ -283,12 +283,20 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/cuidong626" title="cuidong626">
+        <img src="https://avatars.githubusercontent.com/u/22650893?v=4" width="66" />
+        <br />
+        cuidong626
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/Jim-jw" title="Jim-jw">
         <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />
         <br />
         Jim-jw
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/xwxgjs" title="xwxgjs">
         <img src="https://avatars.githubusercontent.com/u/77133362?v=4" width="66" />
@@ -296,7 +304,6 @@
         xwxgjs
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/apps/imgbot" title="imgbot[bot]">
         <img src="https://avatars.githubusercontent.com/in/4706?v=4" width="66" />
@@ -325,6 +332,7 @@
         chunwei
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/lvhuiyang" title="lvhuiyang">
         <img src="https://avatars.githubusercontent.com/u/12714791?v=4" width="66" />
@@ -332,7 +340,6 @@
         lvhuiyang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/social-uni" title="social-uni">
         <img src="https://avatars.githubusercontent.com/u/14007972?v=4" width="66" />
@@ -361,6 +368,7 @@
         wjqsummer
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/avrinfly" title="avrinfly">
         <img src="https://avatars.githubusercontent.com/u/30068005?v=4" width="66" />
@@ -368,15 +376,12 @@
         avrinfly
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/cijiugechu" title="cijiugechu">
         <img src="https://avatars.githubusercontent.com/u/32487868?v=4" width="66" />
         <br />
         cijiugechu
       </a>
-    </td>
-    <td width="150" align="center">
     </td>
     <td width="150" align="center">
     </td>
