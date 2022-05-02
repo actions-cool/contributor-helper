@@ -58,6 +58,9 @@
 <a href="https://github.com/sscfaith" title="sscfaith">
   <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
 </a>
+<a href="https://github.com/cuidong626" title="cuidong626">
+  <img src="https://avatars.githubusercontent.com/u/22650893?v=4" width="66" />
+</a>
 <a href="https://github.com/lopn" title="lopn">
   <img src="https://avatars.githubusercontent.com/u/9405275?v=4" width="66" />
 </a>
@@ -120,9 +123,6 @@
 </a>
 <a href="https://github.com/breezefaith" title="breezefaith">
   <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
-</a>
-<a href="https://github.com/cuidong626" title="cuidong626">
-  <img src="https://avatars.githubusercontent.com/u/22650893?v=4" width="66" />
 </a>
 <a href="https://github.com/Jim-jw" title="Jim-jw">
   <img src="https://avatars.githubusercontent.com/u/27499450?v=4" width="66" />

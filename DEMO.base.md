@@ -132,6 +132,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/cuidong626" title="cuidong626">
+        <img src="https://avatars.githubusercontent.com/u/22650893?v=4" width="66" />
+        <br />
+        cuidong626
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/lopn" title="lopn">
         <img src="https://avatars.githubusercontent.com/u/9405275?v=4" width="66" />
         <br />
@@ -145,6 +152,7 @@
         luzhuang
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/xrkffgg" title="xrkffgg">
         <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="66" />
@@ -152,7 +160,6 @@
         xrkffgg
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/yangling1996" title="yangling1996">
         <img src="https://avatars.githubusercontent.com/u/27794304?v=4" width="66" />
@@ -181,6 +188,7 @@
         BARMPlus
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/cliffordfajardo" title="cliffordfajardo">
         <img src="https://avatars.githubusercontent.com/u/6743796?v=4" width="66" />
@@ -188,7 +196,6 @@
         cliffordfajardo
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/draco-china" title="draco-china">
         <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
@@ -217,6 +224,7 @@
         kgeis
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/MrMengJ" title="MrMengJ">
         <img src="https://avatars.githubusercontent.com/u/26325346?v=4" width="66" />
@@ -224,7 +232,6 @@
         MrMengJ
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/olivewind" title="olivewind">
         <img src="https://avatars.githubusercontent.com/u/17901361?v=4" width="66" />
@@ -253,6 +260,7 @@
         GreatAuk
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/xlzy520" title="xlzy520">
         <img src="https://avatars.githubusercontent.com/u/28336270?v=4" width="66" />
@@ -260,7 +268,6 @@
         xlzy520
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/sskyy" title="sskyy">
         <img src="https://avatars.githubusercontent.com/u/1487672?v=4" width="66" />
@@ -280,13 +287,6 @@
         <img src="https://avatars.githubusercontent.com/u/20924601?v=4" width="66" />
         <br />
         breezefaith
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/cuidong626" title="cuidong626">
-        <img src="https://avatars.githubusercontent.com/u/22650893?v=4" width="66" />
-        <br />
-        cuidong626
       </a>
     </td>
     <td width="150" align="center">
