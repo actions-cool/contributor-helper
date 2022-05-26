@@ -125,6 +125,13 @@
       </a>
     </td>
     <td width="150" align="center">
+      <a href="https://github.com/gossypol" title="gossypol">
+        <img src="https://avatars.githubusercontent.com/u/31892817?v=4" width="66" />
+        <br />
+        gossypol
+      </a>
+    </td>
+    <td width="150" align="center">
       <a href="https://github.com/sscfaith" title="sscfaith">
         <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
         <br />
@@ -145,6 +152,7 @@
         lopn
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/luzhuang" title="luzhuang">
         <img src="https://avatars.githubusercontent.com/u/10904030?v=4" width="66" />
@@ -152,7 +160,6 @@
         luzhuang
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/xrkffgg" title="xrkffgg">
         <img src="https://avatars.githubusercontent.com/u/29775873?v=4" width="66" />
@@ -181,6 +188,7 @@
         halodong
       </a>
     </td>
+  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/BARMPlus" title="BARMPlus">
         <img src="https://avatars.githubusercontent.com/u/14230248?v=4" width="66" />
@@ -188,7 +196,6 @@
         BARMPlus
       </a>
     </td>
-  </tr><tr>
     <td width="150" align="center">
       <a href="https://github.com/cliffordfajardo" title="cliffordfajardo">
         <img src="https://avatars.githubusercontent.com/u/6743796?v=4" width="66" />
@@ -201,13 +208,6 @@
         <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
         <br />
         draco-china
-      </a>
-    </td>
-    <td width="150" align="center">
-      <a href="https://github.com/gossypol" title="gossypol">
-        <img src="https://avatars.githubusercontent.com/u/31892817?v=4" width="66" />
-        <br />
-        gossypol
       </a>
     </td>
     <td width="150" align="center">

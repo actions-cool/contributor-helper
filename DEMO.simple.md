@@ -55,6 +55,9 @@
 <a href="https://github.com/prncoprs" title="prncoprs">
   <img src="https://avatars.githubusercontent.com/u/10610742?v=4" width="66" />
 </a>
+<a href="https://github.com/gossypol" title="gossypol">
+  <img src="https://avatars.githubusercontent.com/u/31892817?v=4" width="66" />
+</a>
 <a href="https://github.com/sscfaith" title="sscfaith">
   <img src="https://avatars.githubusercontent.com/u/23066241?v=4" width="66" />
 </a>
@@ -87,9 +90,6 @@
 </a>
 <a href="https://github.com/draco-china" title="draco-china">
   <img src="https://avatars.githubusercontent.com/u/22271474?v=4" width="66" />
-</a>
-<a href="https://github.com/gossypol" title="gossypol">
-  <img src="https://avatars.githubusercontent.com/u/31892817?v=4" width="66" />
 </a>
 <a href="https://github.com/ImgBotApp" title="ImgBotApp">
   <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="66" />
